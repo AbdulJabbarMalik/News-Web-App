@@ -1,0 +1,25 @@
+.container {
+    border-radius: 48px;
+    background: #e0e0e0;
+    box-shadow: inset 7px 7px 14px #7b7b7b,
+        inset -7px -7px 14px #ffffff;
+}
+
+.card {
+    border-radius: 48px;
+    background: #e0e0e0;
+    box-shadow: 11px 11px 22px #a4a4a4,
+        -11px -11px 22px #ffffff;
+}
+.card-img-top {
+    border-radius: 48px 48px 0 0 ;
+}
+.newsicon {
+    width: 40px;
+    border-radius: 50%;
+}
+.navbar {
+     position: sticky;
+     top: 0;
+     z-index: 111;
+}
