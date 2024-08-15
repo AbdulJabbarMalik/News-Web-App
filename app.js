@@ -4,8 +4,7 @@ let getserch = document.querySelector("#getnews");
 function displayNews() {
   const fetch_data = async () => {
     
-    let res = await fetch(`https://newsapi.org/v2/everything?q=${getserch.value}&from=2024-05-13&sortBy=publishedAt&apiKey=41f49ba676bc405f999aaaee8439e976
-    `)
+    let res = await fetch(`https://newsapi.org/v2/everything?q=${getserch.value}&from=2024-07-15&sortBy=publishedAt&apiKey=41f49ba676bc405f999aaaee8439e976`)
 
     let dis = await res.json()
 
